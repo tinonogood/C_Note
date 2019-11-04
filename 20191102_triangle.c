@@ -22,7 +22,7 @@ int main() {
     for(int i =0; i<row; i++){
         str_line[middle+i] = '*';
         str_line[middle-i] = '*';
-        printf(str_line);
+        printf("%s",str_line);
         printf("\n");
     };
     
